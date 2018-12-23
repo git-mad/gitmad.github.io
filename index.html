@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<!-- Facebook JS SDK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="container-fluid">
+	<br>
+	<div class="row">
+		<div class="container col-md-7 offset-md-1">
+			<div class="card">
+				<div class="card-block">
+					<h4 class="card-title">Georgia Institute of Technology Mastering Android Development</h4>
+					<p class="card-text">
+						GIT MAD is a College of Computing organization that strives to teach and encourage the development of Android applications. Enabling members to either work in a group to develop their own application or learning where to start in Android development.
+					<br><br>
+					</p>
+					<h4 class="card-title">Schedule</h4>
+					<p class="card-text">Meetings are held on Mondays in Klaus 1447 from 6:30pm-8pm.</p>
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th>Date</th>
+								<th>Topic</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for item in site.data.schedule %}
+								<tr>
+									<td>{{ item.date }}</td>
+									<td>
+										{% if item.link == null%}
+											{{ item.topic }}
+										{% else %}
+											<a href="item.link">{{ item.topic }}</a>
+										{% endif %}
+									</td>
+								</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div class="container col-md-2" style="padding:0;">
+			<div class="card" style="padding:0;">
+				<div class="fb-page" data-href="https://www.facebook.com/gitmad" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/gitmad" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gitmad">GIT MAD: Georgia Institute of Technology Mastering Android Development</a></blockquote></div>
+			</div>
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,59 @@
+- date: Week 1 - 1/7
+  topic: No Meeting
+  link: null
+
+- date: Week 2 - 1/14
+  topic: Android Studio Troubleshooting/UPS Tech Talk
+  link: null
+
+- date: Week 3 - 1/21
+  topic: No Meeting (MLK Day)
+  link: null
+
+- date: Week 4 - 1/28
+  topic: No Meeting (Career Fair)
+  link: null
+
+- date: Week 5 - 2/4 
+  topic: Android Basics
+  link: guides/basics.html
+
+- date: Week 6 - 2/11
+  topic: Layouts
+  link: guides/layouts.html
+
+- date: Week 7 - 2/18
+  topic: Event Handling
+  link: guides/event_handling.html
+
+- date: Week 8 - 2/25
+  topic: Tap Game
+  link: guides/tap_game.html
+
+- date: Week 9 - 3/4
+  topic: Fragments
+  link: guides/fragments.html
+
+- date: Week 10 - 3/11
+  topic: Recycler View
+  link: guides/recycler_view.html
+
+- date: Week 11 - 3/18
+  topic: No Meeting (Spring Break)
+  link: null
+
+- date: Week 12 - 3/25
+  topic: Libraries
+  link: guides/libraries.html
+
+- date: Week 13 - 4/1
+  topic: Material Design
+  link: guides/material_design.html
+
+- date: Week 14 - 4/8
+  topic: Intro to Networking
+  link: guides/intro_to_networking.html
+
+- date: Week 15 - 4/15
+  topic: Kotlin
+  link: guides/kotlin.html
