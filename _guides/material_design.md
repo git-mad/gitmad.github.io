@@ -8,6 +8,6 @@ slides_url: https://docs.google.com/presentation/d/1AhTPN7wdAYTLTzX0p9-6keUkH5MX
 download_url: https://docs.google.com/presentation/d/1NJfDDgbBmg9HQxe6MdWvwR92vbHxmI3U1B6Ko1rsAis/export/pptx
 
 additional_links:
-  - name: test link
-    url: www.example.com
+  - name: Material Design Site
+    url: https://material.io/design/
 ---

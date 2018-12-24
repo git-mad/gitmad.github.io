@@ -8,6 +8,5 @@ slides_url: https://docs.google.com/presentation/d/e/2PACX-1vQtEXoEdDrkb38Ya7PWZ
 download_url: https://docs.google.com/presentation/d/14OYulsn40k4bqFrruXCIciQ0VDJ70Qoqf_YvvJ546BQ/export/pptx
 
 additional_links:
-  - name: test link
-    url: www.example.com
+
 ---
