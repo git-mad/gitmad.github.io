@@ -5,54 +5,50 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-		<!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
 
 		<!-- Material Design fonts -->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-		<!-- Material Design for Bootstrap -->
-		<link rel="stylesheet" href="assets/css/bootstrap-material-design.min.css">
-
-		<!-- Bootstrap Social -->
-		<link rel="stylesheet" href="assets/css/bootstrap-social.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
 
 		<!-- Font Awesome -->
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<!-- <link rel="stylesheet" href="assets/css/font-awesome.min.css"> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		<title>
-			Gitmad
-		</title>
+		<!-- Material Design for Bootstrap -->
+		<link rel="stylesheet" href="/assets/css/bootstrap-material-design.min.css">
+		
+		<!-- <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous"> -->
+		
+		<link rel="stylesheet" href="/assets/css/default.css">
+
+		<title>Gitmad</title>
 	</head>
   
 	<body>
-		<nav class="navbar navbar-dark navbar-expand" style="background-color: #1976D2;">
+		<nav class="navbar navbar-expand">
 			<a class="navbar-brand" href="/">
-				<img src="assets/images/logo.png" height="50px" class="d-inline-block align-top">
+				<img src="/assets/images/logo.png" height="50px" class="d-inline-block align-top">
 			</a>
 			<div class="collapse navbar-collapse">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
+				<ul class="nav nav-tabs" >
+					<li class="nav-item" >
+						<a class="nav-link {% if page.url == "/"  %} active {% endif %}" href="/">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="guides.html">Guides</a>
+						<a class="nav-link {% if page.url contains "guide" %} active {% endif %}" href="/guides.html">Guides</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="about_us.html">About Us</a>
+						<a class="nav-link {% if page.url contains "about" %} active {% endif %}" href="/about_us.html">About Us</a>
 					</li>
 				</ul>
 			</div>
 
-			<div class="">
-				<div class="link-icons pull-right">
-					<a class="btn btn-social-icon btn-github" href="https://github.com/git-mad">
-						<span class="fa fa-github"></span>
-					</a>
-					<a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/gitmad/">
-						<span class="fa fa-facebook"></span>
-					</a>
-				</div>
+			<div>
+				<a class="btn btn-lg" href="https://github.com/git-mad">
+					<i class="fa fa-github"></i>
+				</a>
+				<a class="btn btn-lg" href="https://www.facebook.com/gitmad/">
+					<i class="fa fa-facebook"></i>
+				</a>
 			</div>
 		</nav>
 
@@ -60,14 +56,9 @@
 		{{ content }}
 
 
-		<footer class="bd-footer text-muted">
-			<div class="container-fluid p-3 p-md-5">
-				<p id="android_disclaimer">The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.</p>
-			</div>
-		</footer>
-
-		<!-- jQuery first, optional tether for tooltips, then Material Design for Bootstrap JS. -->
-		<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-		<script src="https://cdn.rawgit.com/HubSpot/tether/v1.3.2/dist/js/tether.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+		<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
 	</body>
 </html>

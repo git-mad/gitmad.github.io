@@ -1,0 +1,16 @@
+.nav-link{
+	color: white !important;
+}
+
+.navbar{
+	background-color: #1976D2;
+}
+
+a{
+	text-decoration: none !important;
+	color: #1976D2;
+}
+
+.btn-primary{
+	color: #1976D2 !important;
+}

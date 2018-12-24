@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="container">
+
+	<br>
+
+	<div class="card-columns">
+		{% for guide in site.data.guides %}
+		<div class="card" style="">
+			<img class="card-img-top" src="{{ guide.thumbnail }}">
+			<div class="card-body">
+				<a href="{{ guide.link }}">
+					<h5 class="card-title">{{ guide.title }}</h5>
+				</a>
+				<p class="card-subtitle">{{ guide.subtitle }}</p>
+			</div>
+
+		</div>
+		{% endfor %}
+	</div>
+
+</div>

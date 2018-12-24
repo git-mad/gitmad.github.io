@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="container">
+	<br>
+	<div class="card">
+		<div class="card-body">
+			<h5 class="card-title">{{ page.title }}</h5>
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="{{ page.slides_url }}" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+				<br>
+			</div>
+			{% if page.download_url %}
+				<br>
+				<a class="btn btn-primary btn-block" href="{{ page.download_link }}">Download the presentation.</a>
+			{% endif %}
+		</div>
+		{% if page.additional_links %}
+			<div class="card-footer">
+			{% for link in page.additional_links %}
+					<a class="card-link" href="{{ link.url }}">{{ link.name }}</a>
+			{% endfor %}
+			</div>
+		{% endif %}
+
+	</div>
+</div>
