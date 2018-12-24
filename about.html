@@ -1,0 +1,22 @@
+---
+layout: default
+permalink: /about/
+---
+
+<div class="container">
+	<br>
+	<div class="card-columns">
+		{% for officer in site.data.officers %}
+			<div class="card">
+				<img class="card-img-top" src="{{ officer.picture }}" alt="Picture of {{ officer.name }}">
+				<div class="card-body">
+					<h5 class="card-title">{{ officer.name }}</h5>
+					<p class="card-subtitle mb-2 text-muted">{{ officer.position }}</p>
+					<!-- <a href="mailto:{{ officer.email }}">{{ officer.email }}</a> -->
+					<p class="card-text">{{ officer.bio }}</p>
+					<a href="mailto:{{ officer.email }}" class="btn btn-primary btn-block">email me</a>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>

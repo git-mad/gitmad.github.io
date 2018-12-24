@@ -16,27 +16,27 @@
 
 - date: Week 5 - 2/4 
   topic: Android Basics
-  link: guides/basics.html
+  link: /guides/basics
 
 - date: Week 6 - 2/11
   topic: Layouts
-  link: guides/layouts.html
+  link: /guides/layouts
 
 - date: Week 7 - 2/18
   topic: Event Handling
-  link: guides/event_handling.html
+  link: /guides/event_handling
 
 - date: Week 8 - 2/25
   topic: Tap Game
-  link: guides/tap_game.html
+  link: /guides/tap_game
 
 - date: Week 9 - 3/4
   topic: Fragments
-  link: guides/fragments.html
+  link: /guides/fragments
 
 - date: Week 10 - 3/11
   topic: Recycler View
-  link: guides/recycler_view.html
+  link: /guides/recycler_view
 
 - date: Week 11 - 3/18
   topic: No Meeting (Spring Break)
@@ -44,16 +44,16 @@
 
 - date: Week 12 - 3/25
   topic: Libraries
-  link: guides/libraries.html
+  link: /guides/libraries
 
 - date: Week 13 - 4/1
   topic: Material Design
-  link: guides/material_design.html
+  link: /guides/material_design
 
 - date: Week 14 - 4/8
   topic: Intro to Networking
-  link: guides/intro_to_networking.html
+  link: /guides/intro_to_networking
 
 - date: Week 15 - 4/15
   topic: Kotlin
-  link: guides/kotlin.html
+  link: /guides/kotlin
