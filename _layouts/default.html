@@ -29,7 +29,7 @@
 				<img src="/assets/images/logo.png" height="50px" class="d-inline-block align-top">
 			</a>
 			<div class="collapse navbar-collapse">
-				<ul class="nav nav-tabs" >
+				<ul class="navbar-nav nav-tabs" >
 					<li class="nav-item" >
 						<a class="nav-link {% if page.url == "/"  %} active {% endif %}" href="/">Home</a>
 					</li>
@@ -37,18 +37,25 @@
 						<a class="nav-link {% if page.url contains "guide" %} active {% endif %}" href="/guides">Guides</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link {% if page.url contains "about" %} active {% endif %}" href="/about/">About Us</a>
+						<a class="nav-link {% if page.url contains "about" %} active {% endif %}" href="/about/">Officers</a>
 					</li>
 				</ul>
+
 			</div>
 
-			<div>
-				<a class="btn btn-lg" href="https://github.com/git-mad">
-					<i class="fa fa-github"></i>
-				</a>
-				<a class="btn btn-lg" href="https://www.facebook.com/gitmad/">
-					<i class="fa fa-facebook"></i>
-				</a>
+			<div class="navbar-collapse collapse dual-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="btn btn-lg" href="https://github.com/git-mad">
+							<i class="fa fa-github"></i>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="btn btn-lg" href="https://www.facebook.com/gitmad/">
+							<i class="fa fa-facebook"></i>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</nav>
 
