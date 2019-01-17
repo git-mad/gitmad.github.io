@@ -15,7 +15,7 @@
   link: null
 
 - date: Week 5 - 2/4 
-  topic: Android Basics
+  topic: Android Basics/Verizon Tech Talk
   link: /guides/basics
 
 - date: Week 6 - 2/11
@@ -23,7 +23,7 @@
   link: /guides/layouts
 
 - date: Week 7 - 2/18
-  topic: Event Handling
+  topic: Event Handling/State Farm Tech Talk
   link: /guides/event_handling
 
 - date: Week 8 - 2/25
