@@ -10,7 +10,11 @@ permalink: /about/
 			<div class="card">
 				<img class="card-img-top" src="{{ officer.picture }}" alt="Picture of {{ officer.name }}">
 				<div class="card-body">
-					<h5 class="card-title">{{ officer.name }}</h5>
+					{% if officer.website == null %}
+						<h5 class="card-title">{{ officer.name }}</h5>
+					{% else %}
+						<a href="{{ officer.website }}"><h5 class="card-title">{{ officer.name }}</h5></a>
+					{% endif %}
 					<p class="card-subtitle mb-2 text-muted">{{ officer.position }}</p>
 					<!-- <a href="mailto:{{ officer.email }}">{{ officer.email }}</a> -->
 					<p class="card-text">{{ officer.bio }}</p>
