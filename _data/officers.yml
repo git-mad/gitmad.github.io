@@ -23,12 +23,14 @@
   bio: Hey! My name is Lucas and I am a fourth year CS major here at Tech. I became a GITMAD officer last semester, but have been coming to GITMAD since my freshmen year. My focus is centered around UI/UX and creating apps that provide a great user experience. Most of my Android knowledge comes from this club so I am more than happy to pass the information along!
 
 - name: Ejnar Arechavala
+  website: https://ejnar.me/
   picture: /assets/images/officers/earechavala.jpg
   email: ejnar@gatech.edu
   position: Design Lead
   bio: Hey, I'm a fourth year CompE who dabbles in CS fields and I became an officer a semester after joining the club during my second year. Most of of what I know about Android Development, I learned at this club. I hope that we can learn something together!
 
-- name: <a href='https://jasontu.io'>Jason Tu</a>
+- name: Jason Tu
+  website: https://jasontu.io
   picture: /assets/images/officers/jtu.jpg
   email: jasontu@gatech.edu
   position: Tech Lead
