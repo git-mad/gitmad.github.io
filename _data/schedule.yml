@@ -1,59 +1,59 @@
-- date: Week 1 - 1/7
+- date: Week 1 - 8/19
   topic: No Meeting
   link: null
 
-- date: Week 2 - 1/14
+- date: Week 2 - 8/26
   topic: Android Studio Troubleshooting/UPS Tech Talk
   link: null
 
-- date: Week 3 - 1/21
-  topic: No Meeting (MLK Day)
+- date: Week 3 - 9/2
+  topic: No Meeting (Labor Day)
   link: null
 
-- date: Week 4 - 1/28
-  topic: No Meeting (Career Fair)
+- date: Week 4 - 9/9
+  topic: TBA
   link: null
 
-- date: Week 5 - 2/4 
-  topic: Android Basics/Verizon Tech Talk
-  link: /guides/basics
-
-- date: Week 6 - 2/11
-  topic: Layouts
-  link: /guides/layouts
-
-- date: Week 7 - 2/18
-  topic: Event Handling/State Farm Tech Talk
-  link: /guides/event_handling
-
-- date: Week 8 - 2/25
-  topic: Tap Game
-  link: /guides/tap_game
-
-- date: Week 9 - 3/4
-  topic: Fragments
-  link: /guides/fragments
-
-- date: Week 10 - 3/11
-  topic: Recycler View
-  link: /guides/recycler_view
-
-- date: Week 11 - 3/18
-  topic: No Meeting (Spring Break)
+- date: Week 5 - 9/16 
+  topic: TBA
   link: null
 
-- date: Week 12 - 3/25
-  topic: Libraries
-  link: /guides/libraries
+- date: Week 6 - 9/23
+  topic: TBA
+  link: null
 
-- date: Week 13 - 4/1
-  topic: Material Design
-  link: /guides/material_design
+- date: Week 7 - 9/30
+  topic: TBA
+  link: null
 
-- date: Week 14 - 4/8
-  topic: Intro to Networking
-  link: /guides/intro_to_networking
+- date: Week 8 - 10/7
+  topic: TBA
+  link: null
 
-- date: Week 15 - 4/15
-  topic: Kotlin
-  link: /guides/kotlin
+- date: Week 9 - 10/14
+  topic: No Meeting (Fall Break)
+  link: null
+
+- date: Week 10 - 10/21
+  topic: TBA
+  link: null
+
+- date: Week 11 - 10/28
+  topic: TBA
+  link: null
+
+- date: Week 12 - 11/4
+  topic: TBA
+  link: null
+
+- date: Week 13 - 11/11
+  topic: TBA
+  link: null
+
+- date: Week 14 - 11/18
+  topic: TBA
+  link: null
+
+- date: Week 15 - 11/21
+  topic: TBA
+  link: null
