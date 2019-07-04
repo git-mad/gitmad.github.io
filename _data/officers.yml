@@ -1,25 +1,31 @@
-- name: Jinni Xia
-  picture: /assets/images/officers/jxia.jpg
-  email: jinnixia@gatech.edu
-  position: President
-  bio: Hi! My name is Jinni and I’m a fourth year CS major. I joined GITMAD Fall 2015 and I have been an officer since Spring 2016. Throughout my years with the club, I have taught Android lessons through GITMAD and HackGTeeny, organized events like Bootcamp and the Appathon, and reached out to CAP companies for Android tech talks. I'm looking forward to leading the club as President this year! Please contact me if you have any questions or suggestions regarding the club or upcoming events. Also, feel free to reach out if you are interested in an officer position within GITMAD!
-
 - name: Jamal Paden
   picture: /assets/images/officers/jpaden.jpg
   email: jpaden@gatech.edu
-  position: Technical Lead
+  position: Co-President
   bio: Hi I'm Jamal, I am a CS major at tech! I joined GITMAD in Fall 2016 and became an officer in Spring 2018. I am very interested in Android development, and I want to spread the knowledge!
 
-- name: Ejnar Arechavala
-  website: https://ejnar.me/
-  picture: /assets/images/officers/earechavala.jpg
-  email: ejnar@gatech.edu
-  position: Design Lead
-  bio: Hey, I'm a fourth year CompE who dabbles in CS fields and I became an officer a semester after joining the club during my second year. Most of of what I know about Android Development, I learned at this club. I hope that we can learn something together!
+- name: Kenneth Kannampully
+  picture: /assets/images/officers/jpaden.jpg
+  email: kkannampully@gatech.edu
+  position: Co-President
+  bio: 
 
 - name: Jason Tu
   website: https://jasontu.io
   picture: /assets/images/officers/jtu.jpg
   email: jasontu@gatech.edu
+  position: Technical Lead
+  bio: Hey! I'm Jason, a second-year CS major (Intelligence-People) at Tech. I love Android development and hackathons. You'll often find me with Android Studio open at weird hours of the night, or pestering friends for feedback on a feature. I've worked at NCR (if you've ever been to Waffle House, you've used my code!), and am involved in the startup scene. I've been teaching for more than four years. Feel free to contact me about anything! 
+
+
+- name: Siddu Dussa
+  picture: /assets/images/officers/jtu.jpg
+  email: jasontu@gatech.edu
   position: Tech Lead
   bio: Hey! I'm Jason, a second-year CS major (Intelligence-People) at Tech. I love Android development and hackathons. You'll often find me with Android Studio open at weird hours of the night, or pestering friends for feedback on a feature. I've worked at NCR (if you've ever been to Waffle House, you've used my code!), and am involved in the startup scene. I've been teaching for more than four years. Feel free to contact me about anything! 
+
+- name: Drake Witt
+  picture: /assets/images/officers/dwitt.jpg
+  email: drake.witt@gatech.edu
+  position: TBA
+  bio: Yo! I’m Drake, a second year CS major. I’m super excited to be an officer! I’ve previously instructed kid’s coding courses for over two years, interned at Google, and helped make one of the sickest Android ports of Space Trader. I’m passionate about learning new things, especially in the mobile world. Let’s make something cool!
