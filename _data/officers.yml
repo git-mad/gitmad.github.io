@@ -4,12 +4,12 @@
   position: Co-President
   bio: Hi I'm Jamal, I am a CS major at Tech! I joined GITMAD in Fall 2016, became an officer in Spring 2018, and became Co-President in May 2019. I am very interested in Android development, and I want to spread the knowledge! In the past I have mentored Android develoers at HackGT, HackGTeeny, and GIT MAD's Appathon, and I hope to teach more in the future. I primarily use Java, but I am learning Kotlin, and I have recently taken an interest in cross-platform frameworks like Flutter and React Native. 
 
-- name: Jason Tu
-  website: https://jasontu.io
-  picture: /assets/images/officers/jtu.jpg
-  email: jasontu@gatech.edu
-  position: Technical Lead
-  bio: Hey! I'm Jason, a third-year CS major (Intelligence-People) at Tech. I love Android development (been gettting into Flutter recently) and hackathons. You'll often find me with Android Studio open at weird hours of the night, or pestering friends for feedback on a feature. I've worked at NCR (if you've ever been to Waffle House, you've used my code!), Amazon (Amazon's Choice), and am involved in the startup scene. I've been teaching for more than four years. Feel free to shoot me an email or grab a coffee with me!
+- name: Drake Witt
+  website: https://drakewitt.com/
+  picture: /assets/images/officers/dwitt.jpg
+  email: drake.witt@gatech.edu
+  position: TBA
+  bio: Yo! I’m Drake, a second year CS major. I’m super excited to be an officer! I’ve previously instructed kid’s coding courses for over two years, interned at Google, and helped make one of the sickest Android ports of Space Trader. I’m passionate about learning new things, especially in the mobile world. Let’s make something cool!
 
 - name: Kenneth Kannampully
   picture: /assets/images/officers/KKannampully.jpg
@@ -23,9 +23,15 @@
   position: Officer
   bio: Hey I’m Siddu, and I’m a fourth-year majoring in CS. I joined GITMAD last fall and became an officer in spring. Most of what I learned about Android development is through this club and online courses. Feel free to reach out if you have any questions, need help, or just wanna chat.
 
-- name: Drake Witt
-  website: https://drakewitt.com/
-  picture: /assets/images/officers/dwitt.jpg
-  email: drake.witt@gatech.edu
+- name: Jason Tu
+  website: https://jasontu.io
+  picture: /assets/images/officers/jtu.jpg
+  email: jasontu@gatech.edu
+  position: Technical Lead
+  bio: Hey! I'm Jason, a third-year CS major (Intelligence-People) at Tech. I love Android development (been gettting into Flutter recently) and hackathons. You'll often find me with Android Studio open at weird hours of the night, or pestering friends for feedback on a feature. I've worked at NCR (if you've ever been to Waffle House, you've used my code!), Amazon (Amazon's Choice), and am involved in the startup scene. I've been teaching for more than four years. Feel free to shoot me an email or grab a coffee with me!
+
+- name: Fuad Youssef
+  picture: /assets/images/officers/fyoussef.png
+  email: fuadyoussef@gatech.edu
   position: TBA
-  bio: Yo! I’m Drake, a second year CS major. I’m super excited to be an officer! I’ve previously instructed kid’s coding courses for over two years, interned at Google, and helped make one of the sickest Android ports of Space Trader. I’m passionate about learning new things, especially in the mobile world. Let’s make something cool!
+  bio: Hello, I’m Fuad. I’m a CS and Chinese major. I founded and worked on my high school’s app team and work at Neopod currently. I’m most experienced in Java but have been trying to use Kotlin recently. I enjoy hackathons and have been trying to get into teaching.  My main interests are in how the user should be interacting with the app and project design/management. Please reach out if you have any questions or would like to talk!
