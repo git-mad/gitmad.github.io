@@ -1,59 +1,63 @@
-- date: Week 1 - 8/19
+- date: Week 01 - Aug 19
   topic: No Meeting
   link: null
 
-- date: Week 2 - 8/26
-  topic: NCR Tech Talk + mAndroid Studio Setup/Troubleshooting and Git
+- date: Week 02 - Aug 26
+  topic: NCR Tech Talk + Android Studio Setup/Troubleshooting and Git
   link: null
 
-- date: Week 3 - 9/2
+- date: Week 03 - Sep 02
   topic: No Meeting (Labor Day)
   link: null
 
-- date: Week 4 - 9/9
-  topic: TBA
+- date: Week 04 - Sep 09
+  topic: Input/Output - Hello, [input]!
   link: null
 
-- date: Week 5 - 9/16 
-  topic: TBA
+- date: Week 05 - Sep 16
+  topic: Todo App - Layouts in Android
   link: null
 
-- date: Week 6 - 9/23
+- date: Week 06 - Sep 23
   topic: No Meeting (Career Fair)
   link: null
 
-- date: Week 7 - 9/30
-  topic: TBA
+- date: Week 07 - Sep 30
+  topic: Todo App - Lists in Android
   link: null
 
-- date: Week 8 - 10/7
-  topic: TBA
+- date: Week 08 - Oct 07
+  topic: Navigation in Android
   link: null
 
-- date: Week 9 - 10/14
+- date: Week 09 - Oct 14
   topic: No Meeting (Fall Break)
   link: null
 
-- date: Week 10 - 10/21
+- date: Week 10 - Oct 21
+  topic: Networking (the HTTP kind)
+  link: null
+
+- date: Week 11 - Oct 28
+  topic: Firebase
+  link: null
+
+- date: Week 12 - Nov 04
+  topic: Design
+  link: null
+
+- date: Week 13 - Nov 11
+  topic: Kotlin
+  link: null
+
+- date: Week 14 - Nov 18
+  topic: Cross-platform (Flutter, Ionic, React Native)
+  link: null
+
+- date: Week 15 - Nov 25
   topic: TBA
   link: null
 
-- date: Week 11 - 10/28
-  topic: TBA
-  link: null
-
-- date: Week 12 - 11/4
-  topic: TBA
-  link: null
-
-- date: Week 13 - 11/11
-  topic: TBA
-  link: null
-
-- date: Week 14 - 11/18
-  topic: TBA
-  link: null
-
-- date: Week 15 - 11/21
+- date: Week 15 - Dec 02
   topic: TBA
   link: null
