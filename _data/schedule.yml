@@ -15,35 +15,35 @@
   link: null
 
 - date: Week 05 - Feb 3
-  topic: Basics++
+  topic: Hello, [input]! (Kotlin Edition)
   link: null
 
 - date: Week 06 - Feb 10
-  topic: Kotlin, anyone?
+  topic: Basics
   link: null
 
 - date: Week 07 - Feb 17
-  topic: RecyclerViews
+  topic: Networking
   link: null
 
 - date: Week 08 - Feb 24
-  topic: Networking (the HTTP kind)
+  topic: Firebase
   link: null
 
 - date: Week 09 - Mar 2
-  topic: TBD
+  topic: RecyclerView
   link: null
 
 - date: Week 10 - Mar 9
-  topic: TBD
+  topic: Testing
   link: null
 
 - date: Week 11 - Mar 16
-  topic: No Meeting (Spring Break)
+  topic: No meeting (Spring Break)
   link: null
 
 - date: Week 12 - Mar 23
-  topic: TBD
+  topic: Design
   link: null
 
 - date: Week 13 - Mar 30
@@ -51,13 +51,9 @@
   link: null
 
 - date: Week 14 - Apr 6
-  topic: Cross-platform (Flutter, Ionic, React Native)
+  topic: Android IRL
   link: null
 
 - date: Week 15 - Apr 13
-  topic: TBD
-  link: null
-
-- date: Week 15 - Apr 20
-  topic: TBD
+  topic: Cross-platform
   link: null
