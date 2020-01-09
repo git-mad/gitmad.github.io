@@ -1,7 +1,7 @@
 - name: Kenneth Kannampully
   picture: /assets/images/officers/kkannampully.jpg
   email: kkannampully@gatech.edu
-  position: Co-President
+  position: President
   bio: Hey! I'm a second year CS Major and I am one of your Co-Presidents of GITMAD! I'm truly excited to be able to help improve this club! Last semester, I was the Events Coordinator and I was able to set up many Android-related Tech Talks with big companies such as Microsoft, State Farm, Capital One, UPS, and more! I have many plans for this club, including improving the curriculum by making it less complicating, as well as many more Tech talks throughout the year (so make sure to bring your resumes). Join us if you want to start learning Android!
 
 - name: Fuad Youssef
@@ -13,7 +13,7 @@
 - name: Jamal Paden
   picture: /assets/images/officers/jpaden.jpg
   email: jpaden@gatech.edu
-  position: Co-President
+  position: Vice President
   bio: Hi I'm Jamal, I am a CS major at Tech! I joined GITMAD in Fall 2016, became an officer in Spring 2018, and became Co-President in May 2019. I am very interested in Android development, and I want to spread the knowledge! In the past I have mentored Android develoers at HackGT, HackGTeeny, and GIT MAD's Appathon, and I hope to teach more in the future. I primarily use Java, but I am learning Kotlin, and I have recently taken an interest in cross-platform frameworks like Flutter and React Native.
 
 - name: Jason Tu
