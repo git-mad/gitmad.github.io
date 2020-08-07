@@ -1,59 +1,55 @@
-- date: Week 01 - Jan 06
+- date: Week 01 - Aug 17
   topic: No Meeting
   link: null
 
-- date: Week 02 - Jan 13
+- date: Week 02 - Aug 24
   topic: Intro to GITMAD (+ Android)
   link: null
 
-- date: Week 03 - Jan 20
-  topic: No Meeting (MLK Day)
+- date: Week 03 - Aug 31
+  topic: Basic Input/Output and Kotlin
   link: null
 
-- date: Week 04 - Jan 27
-  topic: Hello, [input]!
+- date: Week 04 - Sep 07
+  topic: No Meeting
   link: null
 
-- date: Week 05 - Feb 3
-  topic: Hello, [input]! (Kotlin Edition)
+- date: Week 05 - Sep 14
+  topic: Todo List App (Part 1)
   link: null
 
-- date: Week 06 - Feb 10
-  topic: Basics
+- date: Week 06 - Sep 21
+  topic: Todo List App (Part 2)
   link: null
 
-- date: Week 07 - Feb 17
+- date: Week 07 - Sep 28
+  topic: Navigation
+  link: null
+
+- date: Week 08 - Oct 05
+  topic: No Meeting
+  link: null
+
+- date: Week 09 - Oct 12
   topic: Networking
   link: null
 
-- date: Week 08 - Feb 24
+- date: Week 10 - Oct 26
   topic: Firebase
   link: null
 
-- date: Week 09 - Mar 2
-  topic: RecyclerView
-  link: null
-
-- date: Week 10 - Mar 9
+- date: Week 11 - Nov 02
   topic: Testing
   link: null
 
-- date: Week 11 - Mar 16
-  topic: No meeting (Spring Break)
+- date: Week 12 - Nov 09
+  topic: Advanced libraries
   link: null
 
-- date: Week 12 - Mar 23
-  topic: Design
-  link: null
-
-- date: Week 13 - Mar 30
-  topic: TBD
-  link: null
-
-- date: Week 14 - Apr 6
-  topic: Android IRL
-  link: null
-
-- date: Week 15 - Apr 13
+- date: Week 13 - Nov 16
   topic: Cross-platform
+  link: null
+
+- date: Week 14 - Nov 23
+  topic: Buffer day
   link: null
