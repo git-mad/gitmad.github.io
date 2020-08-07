@@ -4,62 +4,85 @@ layout: default
 <!-- Facebook JS SDK -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) return;
+   js = d.createElement(s); js.id = id;
+   js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+   fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+   #mc_embed_signup input.email{
+   display:inline-block;
+   }
+   #mc_embed_signup input.button {
+   display:inline-block;
+   }
+</style>
 <div class="container-fluid">
-	<br>
-	<div class="row">
-		<div class="col-md-7 offset-md-1 col-xs-12 mb-3">
-			<div class="card">
-				<div class="card-body">
-					<h5 class="card-title">Georgia Institute of Technology Mastering Android Development</h5>
-					<p class="card-text">
-						GITMAD is a College of Computing organization that strives to teach and encourage the development of Android applications. Enabling members to either work in a group to develop their own application or learning where to start in Android development.
-					</p>
-					<br><br>
-					<h5 class="card-title">Schedule</h5>
-					<p class="card-text">Meetings are held virtually on Mondays from 6:30pm - 8:00pm.</p>
-					<table class="table table-striped">
-						<thead>
-							<tr>
-								<th>Date</th>
-								<th>Topic</th>
-							</tr>
-						</thead>
-						<tbody>
-							{% for item in site.data.schedule %}
-								<tr>
-									<td>{{ item.date }}</td>
-									<td>
-										{% if item.link == null%}
-											{{ item.topic }}
-										{% else %}
-											<a href="{{ item.link }}">{{ item.topic }}</a>
-										{% endif %}
-									</td>
-								</tr>
-							{% endfor %}
-						</tbody>
-					</table>
-				</div>
-			</div>
-		</div>
-
-		<div class="offset-md-1 col-md-2 col-xs-12">
-			<div class="card">
-				<div class="fb-page" data-href="https://www.facebook.com/gitmad" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/gitmad" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gitmad">GIT MAD: Georgia Institute of Technology Mastering Android Development</a></blockquote></div>
-			</div>
-		</div>
-	</div>
-
+   <br>
+   <div class="row">
+      <div class="col-md-7 offset-md-1 col-xs-12 mb-3">
+         <div class="card">
+            <div class="card-body">
+               <h1 class="card-title">Georgia Institute of Technology Mastering Android Development</h1>
+               <p class="card-text">
+                  GITMAD is a College of Computing organization that strives to teach and encourage the development of Android applications. Enabling members to either work in a group to develop their own application or learning where to start in Android development.
+               </p>
+               <br>
+               <!-- Begin Mailchimp Signup Form -->
+               <h5 class="card-title">Stay notified:</h5>
+               <p class="card-text">
+               <div class="input-group input-group-newsletter" id="mc_embed_signup">
+<form action="https://gmail.us3.list-manage.com/subscribe/post?u=e84ad95ac0bcae7378bfd2553&amp;id=cd3b5a0cc7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                     <div id="mc_embed_signup_scroll">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e84ad95ac0bcae7378bfd2553_cd3b5a0cc7" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="Subscribe" id="mc-embedded-subscribe" class="button" style="background-color: #3DDC84;"></div>
+                     </div>
+                  </form>
+               </div>
+               </p>
+               <!-- End Mailchimp Signup Form -->
+               <br>
+               <h5 class="card-title">Schedule</h5>
+               <p class="card-text">Meetings are held virtually on Mondays from 6:30pm - 8:00pm.</p>
+               <p class="card-text"><a href="https://calendar.google.com/calendar?cid=Z2l0bWFkZ3RAZ21haWwuY29t"><strong>Google Calendar</strong></a> (<a href="https://calendar.google.com/calendar/ical/gitmadgt%40gmail.com/public/basic.ics">iCal</a>)
+               <table class="table table-striped">
+                  <thead>
+                     <tr>
+                        <th>Date</th>
+                        <th>Topic</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     {% for item in site.data.schedule %}
+                     <tr>
+                        <td>{{ item.date }}</td>
+                        <td>
+                           {% if item.link == null%}
+                           {{ item.topic }}
+                           {% else %}
+                           <a href="{{ item.link }}">{{ item.topic }}</a>
+                           {% endif %}
+                        </td>
+                     </tr>
+                     {% endfor %}
+                  </tbody>
+               </table>
+            </div>
+         </div>
+      </div>
+      <div class="offset-md-1 col-md-2 col-xs-12">
+         <div class="card">
+            <div class="fb-page" data-href="https://www.facebook.com/gitmad" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+               <blockquote cite="https://www.facebook.com/gitmad" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/gitmad">GIT MAD: Georgia Institute of Technology Mastering Android Development</a></blockquote>
+            </div>
+         </div>
+      </div>
+   </div>
 </div>
-
-
 <div class="container p-2">
-	<small class="text-muted" id="android_disclaimer">The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.</small>
+   <small class="text-muted" id="android_disclaimer">The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.</small>
 </div>
