@@ -34,20 +34,24 @@
   topic: Firebase
   link: null
 
-- date: Week 10 - Oct 26
+- date: Week 10 - Oct 19
   topic: Testing
   link: null
 
-- date: Week 11 - Nov 02
+- date: Week 10 - Oct 26
   topic: Advanced libraries
   link: null
 
-- date: Week 12 - Nov 09
+- date: Week 11 - Nov 02
   topic: Cross-platform
   link: null
 
+- date: Week 12 - Nov 09
+  topic: Storing Data
+  link: null
+
 - date: Week 13 - Nov 16
-  topic: Buffer day
+  topic: What NOT to do (and why)
   link: null
 
 - date: Week 14 - Nov 23
