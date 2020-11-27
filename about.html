@@ -18,7 +18,9 @@ permalink: /about/
 					<p class="card-subtitle mb-2 text-muted">{{ officer.position }}</p>
 					<!-- <a href="mailto:{{ officer.email }}">{{ officer.email }}</a> -->
 					<p class="card-text">{{ officer.bio }}</p>
-					<a href="mailto:{{ officer.email }}" class="btn btn-primary btn-block">email me</a>
+					{% if officer.email != null %}
+						<a href="mailto:{{ officer.email }}" class="btn btn-primary btn-block">email me</a>
+					{% endif %}
 				</div>
 			</div>
 		{% endfor %}

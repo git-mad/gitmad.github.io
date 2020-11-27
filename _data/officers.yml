@@ -10,6 +10,12 @@
   position: Officer
   bio: Hello, I’m Fuad. I’m a CS and Chinese major. I founded and worked on my high school’s app team and work at Neopod currently. I’m most experienced in Java but have been trying to use Kotlin recently. I enjoy hackathons and have been trying to get into teaching.  My main interests are in how the user should be interacting with the app and project design/management. Please reach out if you have any questions or would like to talk!
 
+- name:
+  picture:
+  email:
+  position:
+  bio:
+
 - name: Drake Witt  
   website: https://drakewitt.com/ 
   picture: /assets/images/officers/dwitt.jpg  
