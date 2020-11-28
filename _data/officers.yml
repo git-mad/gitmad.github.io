@@ -18,7 +18,20 @@
 
 - name: Drake Witt  
   website: https://drakewitt.com/ 
-  picture: /assets/images/officers/dwitt.jpg  
+  picture: /assets/images/officers/dwitt.jpg
   email: drake.witt@gatech.edu  
   position: Officer 
   bio: Yo! I’m Drake, a third year CS major. I’m super excited to be an officer! I’ve previously instructed kid’s coding courses for over two years, interned at Google, and helped make one of the sickest Android ports of Space Trader. I’m passionate about learning new things, especially in the mobile world. Let’s make something cool!
+
+- name:
+  picture:
+  email:
+  position:
+  bio:
+
+- name: Akash Veerappan
+  website: https://akashveerappan.com/
+  picture: /assets/images/officers/aveerappan.jpg
+  email: akashpl2002@outlook.com
+  position: Officer
+  bio: Hello, I am Akash, and I am a freshman at Georgia Institute of Technology. I have been coding since eighth grade, and it has always been my goal to impact those around me with technology and computer science. When I moved to the US initially in eighth grade from India, the relative "newness" of everything was astonishing and overwhelming, and something more stable and static like learning to code from home gave me a sense of purpose and a medium of connecting to other similar-minded individuals. And this is the energy that I have been leveraging ever since to build community-inspired software and products that helps and empowers people with computer science. I am excited to have been appointed as technical officer at GITMAD, and it is my absolute pleasure to have the opportunity to work with you and build some incredible apps.
