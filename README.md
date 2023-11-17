@@ -1,4 +1,4 @@
-# [GITMAD.club](www.gitmad.club)
+# [GITMAD.org](www.gitmad.org)
 
 This is the official website of the Georgia Institute of Technology Mastering Android Development (GITMAD) Club.
 
