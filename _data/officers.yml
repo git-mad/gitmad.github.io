@@ -1,37 +1,57 @@
-- name: Kenneth Kannampully
-  picture: /assets/images/officers/kkannampully.jpg
-  email: kkannampully@gatech.edu
+# - name: Kenneth Kannampully
+#   picture: /assets/images/officers/kkannampully.jpg
+#   email: kkannampully@gatech.edu
+#   position: President
+#   bio: Hey! I'm a second year CS Major and I am one of your Co-Presidents of GITMAD! I'm truly excited to be able to help improve this club! Last semester, I was the Events Coordinator and I was able to set up many Android-related Tech Talks with big companies such as Microsoft, State Farm, Capital One, UPS, and more! I have many plans for this club, including improving the curriculum by making it less complicating, as well as many more Tech talks throughout the year (so make sure to bring your resumes). Join us if you want to start learning Android!
+
+# - name: Fuad Youssef
+#   picture: /assets/images/officers/fyoussef.jpg
+#   email: fuadyoussef@gatech.edu
+#   position: Officer
+#   bio: Hello, I’m Fuad. I’m a CS and Chinese major. I founded and worked on my high school’s app team and work at Neopod currently. I’m most experienced in Java but have been trying to use Kotlin recently. I enjoy hackathons and have been trying to get into teaching.  My main interests are in how the user should be interacting with the app and project design/management. Please reach out if you have any questions or would like to talk!
+
+# - name:
+#   picture:
+#   email:
+#   position:
+#   bio:
+
+# - name: Drake Witt  
+#   website: https://drakewitt.com/ 
+#   picture: /assets/images/officers/dwitt.jpg
+#   email: drake.witt@gatech.edu  
+#   position: Officer 
+#   bio: Yo! I’m Drake, a third year CS major. I’m super excited to be an officer! I’ve previously instructed kid’s coding courses for over two years, interned at Google, and helped make one of the sickest Android ports of Space Trader. I’m passionate about learning new things, especially in the mobile world. Let’s make something cool!
+
+# - name:
+#   picture:
+#   email:
+#   position:
+#   bio:
+
+# - name: Akash Veerappan
+#   website: https://akashveerappan.com/
+#   picture: /assets/images/officers/aveerappan.jpg
+#   email: akashpl2002@outlook.com
+#   position: Officer
+#   bio: Hello, I am Akash, and I am a freshman at Georgia Institute of Technology. I have been coding since eighth grade, and it has always been my goal to impact those around me with technology and computer science. When I moved to the US initially in eighth grade from India, the relative "newness" of everything was astonishing and overwhelming, and something more stable and static like learning to code from home gave me a sense of purpose and a medium of connecting to other similar-minded individuals. And this is the energy that I have been leveraging ever since to build community-inspired software and products that helps and empowers people with computer science. I am excited to have been appointed as technical officer at GITMAD, and it is my absolute pleasure to have the opportunity to work with you and build some incredible apps!
+
+- name: Anish Kanduri
+  website: https://www.linkedin.com/in/anish-kanduri/
+  picture: /assets/images/officers/akanduri.jpeg
+  email: akanduri3@gatech.edu
   position: President
-  bio: Hey! I'm a second year CS Major and I am one of your Co-Presidents of GITMAD! I'm truly excited to be able to help improve this club! Last semester, I was the Events Coordinator and I was able to set up many Android-related Tech Talks with big companies such as Microsoft, State Farm, Capital One, UPS, and more! I have many plans for this club, including improving the curriculum by making it less complicating, as well as many more Tech talks throughout the year (so make sure to bring your resumes). Join us if you want to start learning Android!
+  bio: Hey! I'm a third year CS Major and I am the President of GITMAD! I'm truly excited to be able to help improve this club! Last semester, I enjoyed organizing our many events. I have many plans for this club, including improving the curriculum by making it less complicating, as well as improving our project process and outcomes. Join us if you want to start learning Android!
 
-- name: Fuad Youssef
-  picture: /assets/images/officers/fyoussef.jpg
-  email: fuadyoussef@gatech.edu
+- name: Felicia Jamba
+  picture: /assets/images/officers/fjamba.jpg
+  email: fjamba@gatech.edu
+  position: Vice-President
+  bio: Hello! I'm Felicia, a 2nd CS major and vice-president of GITMAD. I've been part of the club since my beginnings at tech and it's been a blast! I'm involved in club organization and teaching our workshops on Android development which involve creating XML user interfaces, writing in Kotlin, and integrating Firebase backend.
+
+- name: Joel Effiom
+  picture: /assets/images/officers/jeffiom.jpg
+  email: jeffiom3@gatech.edu
   position: Officer
-  bio: Hello, I’m Fuad. I’m a CS and Chinese major. I founded and worked on my high school’s app team and work at Neopod currently. I’m most experienced in Java but have been trying to use Kotlin recently. I enjoy hackathons and have been trying to get into teaching.  My main interests are in how the user should be interacting with the app and project design/management. Please reach out if you have any questions or would like to talk!
+  bio: Hey there! I'm Joel Effiom, 4th year CS major and new officer in GITMAD. I joined the club in Fall 2022 as a member and Fall 2023 was my first semester as an officer. I have enjoyed learning and assisting in teaching about the Android Studio platform and its features. 
 
-- name:
-  picture:
-  email:
-  position:
-  bio:
-
-- name: Drake Witt  
-  website: https://drakewitt.com/ 
-  picture: /assets/images/officers/dwitt.jpg
-  email: drake.witt@gatech.edu  
-  position: Officer 
-  bio: Yo! I’m Drake, a third year CS major. I’m super excited to be an officer! I’ve previously instructed kid’s coding courses for over two years, interned at Google, and helped make one of the sickest Android ports of Space Trader. I’m passionate about learning new things, especially in the mobile world. Let’s make something cool!
-
-- name:
-  picture:
-  email:
-  position:
-  bio:
-
-- name: Akash Veerappan
-  website: https://akashveerappan.com/
-  picture: /assets/images/officers/aveerappan.jpg
-  email: akashpl2002@outlook.com
-  position: Officer
-  bio: Hello, I am Akash, and I am a freshman at Georgia Institute of Technology. I have been coding since eighth grade, and it has always been my goal to impact those around me with technology and computer science. When I moved to the US initially in eighth grade from India, the relative "newness" of everything was astonishing and overwhelming, and something more stable and static like learning to code from home gave me a sense of purpose and a medium of connecting to other similar-minded individuals. And this is the energy that I have been leveraging ever since to build community-inspired software and products that helps and empowers people with computer science. I am excited to have been appointed as technical officer at GITMAD, and it is my absolute pleasure to have the opportunity to work with you and build some incredible apps!

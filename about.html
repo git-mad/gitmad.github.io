@@ -5,24 +5,29 @@ permalink: /about/
 
 <div class="container">
 	<br>
-	<div class="card-columns">
-		{% for officer in site.data.officers %}
-			<div class="card">
-				<img class="card-img-top" src="{{ officer.picture }}" alt="Picture of {{ officer.name }}">
-				<div class="card-body">
-					{% if officer.website == null %}
-						<h5 class="card-title">{{ officer.name }}</h5>
-					{% else %}
-						<a href="{{ officer.website }}"><h5 class="card-title">{{ officer.name }}</h5></a>
-					{% endif %}
-					<p class="card-subtitle mb-2 text-muted">{{ officer.position }}</p>
-					<!-- <a href="mailto:{{ officer.email }}">{{ officer.email }}</a> -->
-					<p class="card-text">{{ officer.bio }}</p>
-					{% if officer.email != null %}
-						<a href="mailto:{{ officer.email }}" class="btn btn-primary btn-block">email me</a>
-					{% endif %}
-				</div>
+	<div class="row">
+	  {% for officer in site.data.officers %}
+		<div class="col-md-4">
+		  <div class="card mb-4">
+			{% if officer.picture != null %}
+            	<img class="card-img-top" src="{{ officer.picture }}" alt="Picture of {{ officer.name }}">
+			{% else %}
+				<img class="card-img-top" src="/assets/images/officers/default.png" alt="Picture of {{ officer.name }}">
+			{% endif %}
+			<div class="card-body">
+			  {% if officer.website == null %}
+				<h5 class="card-title">{{ officer.name }}</h5>
+			  {% else %}
+				<a href="{{ officer.website }}"><h5 class="card-title">{{ officer.name }}</h5></a>
+			  {% endif %}
+			  <p class="card-subtitle mb-2 text-muted">{{ officer.position }}</p>
+			  <p class="card-text">{{ officer.bio }}</p>
+			  {% if officer.email != null %}
+				<a href="mailto:{{ officer.email }}" class="btn btn-primary btn-block">email me</a>
+			  {% endif %}
 			</div>
-		{% endfor %}
+		  </div>
+		</div>
+	  {% endfor %}
 	</div>
-</div>
+  </div>
