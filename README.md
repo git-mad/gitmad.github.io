@@ -20,6 +20,11 @@ This is the official website of the Georgia Institute of Technology Mastering An
   * [images](/assets/images) - Images on the sites (e.g. officer pictures)
   * [js](/assets/js) - Javascript
   
+# How to Run
+* Install Ruby version 2.7.8.225
+* Run `gem install bundler`
+* Run `bundle install`
+* Run `bundle exec jekyll serve` and you should be able to see local site
 
 # Contributing
 
