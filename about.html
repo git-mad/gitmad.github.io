@@ -3,31 +3,86 @@ layout: default
 permalink: /about/
 ---
 
-<div class="container">
-	<br>
-	<div class="row">
-	  {% for officer in site.data.officers %}
-		<div class="col-md-4">
-		  <div class="card mb-4">
-			{% if officer.picture != null %}
-            	<img class="card-img-top" src="{{ officer.picture }}" alt="Picture of {{ officer.name }}">
-			{% else %}
-				<img class="card-img-top" src="/assets/images/officers/default.png" alt="Picture of {{ officer.name }}">
-			{% endif %}
-			<div class="card-body">
-			  {% if officer.website == null %}
-				<h5 class="card-title">{{ officer.name }}</h5>
+<head>
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/responsive.css">
+	<script src="https://kit.fontawesome.com/42ad7e6248.js" crossorigin="anonymous"></script>
+</head>
+
+<div class="responsive-container-block container">
+	<p class="text-blk team-head-text">
+	  Our Team
+	</p>
+	<div class="responsive-container-block" style="width: 100%;">
+	  {% for officer in site.data.officers limit:3 %}
+		<div class="responsive-cell-block wk-desk-4 wk-ipadp-4 wk-tab-6 wk-mobile-12 card-container top-row">
+		  <div class="card">
+			<div class="exec-image-wrapper">
+			  {% if officer.picture != null %}
+				<img class="team-member-image" src="{{ officer.picture }}" alt="Picture of {{ officer.name }}">
 			  {% else %}
-				<a href="{{ officer.website }}"><h5 class="card-title">{{ officer.name }}</h5></a>
+				<img class="card-img-top" src="/assets/images/officers/default.png" alt="Picture of {{ officer.name }}">
 			  {% endif %}
-			  <p class="card-subtitle mb-2 text-muted">{{ officer.position }}</p>
-			  <p class="card-text">{{ officer.bio }}</p>
-			  {% if officer.email != null %}
-				<a href="mailto:{{ officer.email }}" class="btn btn-primary btn-block">email me</a>
+			</div>
+			<p class="text-blk name">
+			  {{ officer.name }}
+			</p>
+			<p class="text-blk position">
+			  {{ officer.position }}
+			</p>
+			<p class="text-blk feature-text">
+			  {{ officer.bio }}
+			  {% for _ in (1..officer.newline) %}
+				<br>
+			  {% endfor %}
+			</p>
+			<div class="social-icons">
+			  <a href="mailto:{{ officer.email }}" target="_blank">
+				<i class="fa-solid fa-envelope"></i>
+			  </a>
+			  {% if officer.website != null %}  
+			    <a href="{{ officer.website }}" target="_blank">
+				  <i class="fa-brands fa-linkedin"></i>
+			    </a>
 			  {% endif %}
 			</div>
 		  </div>
 		</div>
 	  {% endfor %}
+
+	  {% assign skipped_count = 0 %}
+	  {% for officer in site.data.officers %}
+		{% if skipped_count < 3 %}
+		  {% assign skipped_count = skipped_count | plus: 1 %}
+		{% else %}
+		  <div class="responsive-cell-block wk-desk-2 wk-ipadp-2 wk-tab-4 wk-mobile-12 card-container">
+			<div class="card">
+			  <div class="team-image-wrapper">
+				{% if officer.picture != null %}
+				  <img class="team-member-image" src="{{ officer.picture }}" alt="Picture of {{ officer.name }}">
+				{% else %}
+				  <img class="card-img-top" src="/assets/images/officers/default.png" alt="Picture of {{ officer.name }}">
+				{% endif %}
+			  </div>
+			  <p class="text-blk name">
+				{{ officer.firstName }}<br>{{officer.lastName}}
+			  </p>
+			  <p class="text-blk position">
+				{{ officer.position }}
+			  </p>
+			  <div class="social-icons">
+				<a href="mailto:{{ officer.email }}" target="_blank">
+				  <i class="fa-solid fa-envelope"></i>
+				</a>
+				{% if officer.website != null %}  
+				  <a href="{{ officer.website }}" target="_blank">
+					<i class="fa-brands fa-linkedin"></i>
+				  </a>
+				{% endif %}
+			  </div>
+			</div>
+		  </div>
+		{% endif %}
+	  {% endfor %}
 	</div>
-  </div>
+  </div>  
