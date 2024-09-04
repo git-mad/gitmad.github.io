@@ -52,16 +52,22 @@ layout: default
                   <thead>
                      <tr>
                         <th>Week</th>
-                        <th>Workshop Date</th>
-                        <th>Workshop Topic</th>
                         <th>Project Group Date</th>
                         <th>Project Group Agenda</th>
+                        <th>Workshop Date</th>
+                        <th>Workshop Topic</th>
                      </tr>
                   </thead>
                   <tbody>
                      {% for item in site.data.schedule %}
                      <tr>
                         <td>{{ item.week }}</td>
+                        <td>
+                           {{ item.pgdate }}
+                        </td>
+                        <td>
+                           {{ item.pgagenda }}
+                        </td>
                         <td>
                            {{ item.workshopdate }}
                            <!--{% if item.link == null%}
@@ -72,12 +78,6 @@ layout: default
                         </td>
                         <td>
                            {{ item.workshoptopic }}
-                        </td>
-                        <td>
-                           {{ item.pgdate }}
-                        </td>
-                        <td>
-                           {{ item.pgagenda }}
                         </td>
                      </tr>
                      {% endfor %}

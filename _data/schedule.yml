@@ -6,99 +6,99 @@
   link: null
 
 - week: Week 02
-  workshopdate: Sep. 2
-  workshoptopic: No Meeting
-  pgdate: Sep. 4
-  pgagenda: Sprint 1 Planning
+  workshopdate: Sep. 4
+  workshoptopic: Kotlin Overview
+  pgdate: Sep. 2
+  pgagenda: No Meeting
   link: null
 
 - week: Week 03
-  workshopdate: Sep. 9
-  workshoptopic: Intro to Android Studio
-  pgdate: Sep. 11
-  pgagenda: Sprint 1 Work
+  workshopdate: Sep. 11
+  workshoptopic: Calculator App
+  pgdate: Sep. 9
+  pgagenda: Project Group Kickoff
   link: null
 
 - week: Week 04
-  workshopdate: Sep. 16
-  workshoptopic: Overview of Kotlin and Calculator App
-  pgdate: Sep. 18
-  pgagenda: Sprint 1 Work
+  workshopdate: Sep. 18
+  workshoptopic: Activities and Intents
+  pgdate: Sep. 16
+  pgagenda: Sprint 1 Planning
   link: null
 
 - week: Week 05
-  workshopdate: Sep. 23
-  workshoptopic: Activities and Intents
-  pgdate:  Sep. 25
-  pgagenda: Sprint 1 Demos
+  workshopdate: Sep. 25
+  workshoptopic: List View and Layouts
+  pgdate:  Sep. 23
+  pgagenda: Sprint 1 Work
   link: null
 
 - week: Week 06
-  workshopdate: Sep. 30
-  workshoptopic: List View
-  pgdate: Oct. 2
-  pgagenda: Sprint 2 Planning
+  workshopdate: Oct. 2
+  workshoptopic: Firebase Part 1
+  pgdate: Sept. 30
+  pgagenda: Sprint 1 Work
   link: null
 
 - week: Week 07
-  workshopdate: Oct. 7
-  workshoptopic: Firebase
-  pgdate: Oct. 9
-  pgagenda: Sprint 2 Work
+  workshopdate: Oct. 9
+  workshoptopic: Firebase Part 2
+  pgdate: Oct. 7
+  pgagenda: Sprint 1 Demos
   link: null
 
 - week: Week 08
-  workshopdate: Oct. 14
-  workshoptopic: No Meeting
-  pgdate: Oct. 16
-  pgagenda: Sprint 2 Work
+  workshopdate: Oct. 16
+  workshoptopic: Firebase Authentication
+  pgdate: Oct. 14
+  pgagenda: No Meeting
   link: null
 
 - week: Week 09
-  workshopdate: Oct. 21
-  workshoptopic: Firebase Part 2
-  pgdate: Oct. 23
-  pgagenda: Sprint 2 Demos
+  workshopdate: Oct. 23
+  workshoptopic: React Native + Expo Intro
+  pgdate: Oct. 21
+  pgagenda: Sprint 2 Planning
   link: null
 
 - week: Week 10
-  workshopdate: Oct. 28
-  workshoptopic: Firebase Authentication
-  pgdate: Oct. 30
-  pgagenda: Final Sprint Planning
+  workshopdate: Oct. 30
+  workshoptopic: Tech Talk ft. Google
+  pgdate: Oct. 28
+  pgagenda: Sprint 2 Work
   link: null
 
 - week: Week 11
-  workshopdate: Nov. 4
-  workshoptopic: React Native + Expo Intro
-  pgdate: Nov. 6
-  pgagenda: Final Sprint Work
+  workshopdate: Nov. 6
+  workshoptopic: React Concepts
+  pgdate: Nov. 4
+  pgagenda: Sprint 2 Work
   link: null
 
 - week: Week 12
-  workshopdate: Nov. 11
-  workshoptopic: React Concepts
-  pgdate: Nov. 13
-  pgagenda: Final Sprint Feedback Event 
+  workshopdate: Nov. 13
+  workshoptopic: React Native + Expo Libraries
+  pgdate: Nov. 11
+  pgagenda: Sprint 2 Demos
   link: null
 
 - week: Week 13
-  workshopdate: Nov. 18
-  workshoptopic: React Native + Expo Libraries
-  pgdate: Nov. 20
-  pgagenda: Final Sprint Work
+  workshopdate: Nov. 20
+  workshoptopic: Bring an App Workshop
+  pgdate: Nov. 18
+  pgagenda: Final Sprint Planning
   link: null
 
 - week: Week 14
-  workshopdate: Nov. 25
-  workshoptopic: Bring an App Workshop
-  pgdate: Nov. 27
-  pgagenda: Final Sprint Presentation
+  workshopdate: Nov. 27
+  workshoptopic: Final Workshop
+  pgdate: Nov. 25
+  pgagenda: Final Sprint Work
   link: null
 
 - week: Week 15
-  workshopdate: Dec. 2
-  workshoptopic: Final Club Meeting
-  pgdate: N/A
-  pgagenda: No Meeting
+  workshopdate: N/A
+  workshoptopic: No Meeting
+  pgdate: Dec. 2
+  pgagenda: Final Sprint Presentation
   link: null
